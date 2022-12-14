@@ -2,18 +2,51 @@
 * {
   font-family: sans-serif;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 header {
   display: flex;
   justify-content: center;
-  padding: 2rem;
-  font-size: 4rem;
+  padding: 1em;
+  font-size: 3em;
   color: white;
-  background-color: darkred;
+  background-color: #27c97e;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+  gap: 1em;
+}
+
+/* side */
+
+#side {
+  background-color: #e1f9ee;
+}
+
+.section {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5em;
+}
+
+/* main */
+
+#main {
+  flex: 1;
 }
