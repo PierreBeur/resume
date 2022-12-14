@@ -10,6 +10,7 @@ body {
   margin: 0;
   display: flex;
   flex-flow: column;
+  font-size: 11pt;
 }
 
 header {
@@ -29,13 +30,14 @@ main {
 .column {
   display: flex;
   flex-flow: column;
-  padding: 1rem;
+  padding: 1em;
   gap: 1em;
 }
 
 /* side */
 
 #side {
+  width: 15em;
   background-color: #e1f9ee;
 }
 
