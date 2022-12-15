@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+a {
+  color: #007fff;
+  text-decoration: none;
+}
+
 body {
   height: 100vh;
   margin: 0;
