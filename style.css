@@ -30,6 +30,8 @@ header {
   font-size: 3em;
   color: white;
   background-color: hsl(152deg 67% 47%);
+  box-shadow: 0 -0.5em 0.5em 0.5em rgb(0 0 0 / 30%);
+  z-index: 4;
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -49,11 +51,11 @@ main {
 
 #side {
   width: 15em;
-  background-color: hsl(152deg 67% 93%);
 }
 
 #side > .section {
   padding: 1em;
+  box-shadow: 0 0 1.5em -0.5em rgb(0 0 0 / 20%);
 }
 
 .section {
@@ -64,10 +66,18 @@ main {
 
 #contact {
   background-color: hsl(152deg 67% 80%);
+  z-index: 3;
 }
 
 #education {
   background-color: hsl(152deg 67% 87%);
+  z-index: 2;
+}
+
+#skills {
+  flex-grow: 1;
+  background-color: hsl(152deg 67% 93%);
+  z-index: 1;
 }
 
 .indent {
