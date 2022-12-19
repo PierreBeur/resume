@@ -29,7 +29,7 @@ header {
   padding: 0.6em;
   font-size: 3em;
   color: white;
-  background-color: #27c97e;
+  background-color: hsl(152deg 67% 47%);
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -43,15 +43,17 @@ main {
 .column {
   display: flex;
   flex-flow: column;
-  padding: 1em;
-  gap: 1em;
 }
 
 /* side */
 
 #side {
   width: 15em;
-  background-color: #e1f9ee;
+  background-color: hsl(152deg 67% 93%);
+}
+
+#side > .section {
+  padding: 1em;
 }
 
 .section {
@@ -60,8 +62,21 @@ main {
   gap: 0.5em;
 }
 
+#contact {
+  background-color: hsl(152deg 67% 80%);
+}
+
+#education {
+  background-color: hsl(152deg 67% 87%);
+}
+
+.indent {
+  margin-left: 1em;
+}
+
 /* main */
 
 #main {
   flex: 1;
+  padding: 1em;
 }
