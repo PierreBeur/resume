@@ -90,3 +90,7 @@ main {
   flex: 1;
   padding: 1em;
 }
+
+#main h2 {
+  margin-top: 0.5em;
+}
