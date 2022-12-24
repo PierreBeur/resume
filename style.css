@@ -1,3 +1,6 @@
+:root {
+  --hue-sat: 152deg 67%;
+}
 
 * {
   font-family: 'Ubuntu', sans-serif;
@@ -29,7 +32,7 @@ header {
   padding: 0.6em;
   font-size: 3em;
   color: white;
-  background-color: hsl(152deg 67% 47%);
+  background-color: hsl(var(--hue-sat) 47%);
   box-shadow: 0 -0.5em 0.5em 0.5em rgb(0 0 0 / 30%);
   z-index: 4;
   font-family: 'Work Sans', sans-serif;
@@ -65,18 +68,18 @@ main {
 }
 
 #contact {
-  background-color: hsl(152deg 67% 80%);
+  background-color: hsl(var(--hue-sat) 80%);
   z-index: 3;
 }
 
 #education {
-  background-color: hsl(152deg 67% 87%);
+  background-color: hsl(var(--hue-sat) 87%);
   z-index: 2;
 }
 
 #skills {
   flex-grow: 1;
-  background-color: hsl(152deg 67% 93%);
+  background-color: hsl(var(--hue-sat) 93%);
   z-index: 1;
 }
 
