@@ -93,10 +93,10 @@ main {
 #main {
   flex: 1;
   padding: 1em;
-  gap: 0.5em;
+  gap: 1em;
   text-align: justify;
 }
 
-#main > .section {
+#main > .section > .section {
   gap: 1em;
 }
